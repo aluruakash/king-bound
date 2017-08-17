@@ -81,18 +81,17 @@ p.powered{
 	}
 }
 .fix{
-	position: fixed;
 	background-color: black;
 	opacity: .8;
-	bottom: -10px;
-	left: -30px;
-	z-index: 1;
+	position: absolute;
+	left: 0;
+	text-align: center;
 }
 .fix li{
 	list-style-type: none;
 }
 .copyright p{
-	text-align: center;
+	text-align: left;
 }
 .container h3{
 	font-family: 'Roboto Slab', serif;
@@ -105,4 +104,48 @@ a.footer-logo{
 }
 .flex-caption p{
 	font-family: 'Roboto Slab', serif;
+}
+h2.aligncenter{
+	font-family: 'Roboto Slab', serif;
+}
+
+.row{
+	position: relative;
+}
+.scrolldown{
+    position:absolute;
+    width:32px;
+    height:32px;
+    top:0px;
+    left:20px;
+    background: #383b3b;
+}
+
+a.scrolldown {
+	outline:0;
+	text-align: center;
+}
+
+a.scrolldown:hover,a.scrolldown:active,a.scrolldown:focus {
+	opacity:1;
+	text-decoration:none;
+}
+a.scrolldown i {
+	margin-top: 10px;
+	color: #fff;
+}
+a.scrolldown i:hover {
+	text-decoration:none;
+}
+
+@media(max-width: 767px){
+	.footer-logo img{
+		width: 20%;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top:50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
