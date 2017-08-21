@@ -57,7 +57,7 @@
     width: 45px;
     height: 45px;
     text-align: center;
-    background-color: #2f3032;
+    background-color: #c5a900;
     display: none;
     line-height: 45px;
     position: absolute;
@@ -71,7 +71,7 @@
 }
 
 .gallery-item .gallery-thumb .gallery-zoom:hover, .gallery-item .gallery-thumb .gallery-link:hover {
-    background-color: #a8b525;
+    background-color: #c5a900;
     color: #2f2f2f;
 }
 
